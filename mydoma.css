@@ -1,0 +1,142 @@
+.container {
+  align-items: center;
+  background-color: #cf9595;
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.body {
+  background-color: rgba(87, 71, 52, 0.603);
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  padding: 0 10px;
+  font-family: sans-serif;
+}
+
+.menu-item {
+  display: inline-block;
+  padding: 25px;
+  cursor: pointer;
+  
+}
+
+.menu-item:hover {
+  background-color: #cf9595;
+}
+
+.menu-item:hover .second-menu {
+  display: block;
+}
+
+.submenu {
+  position: relative;
+}
+
+.sub1 {
+  position: relative;
+  background-color: #e1818a;
+  cursor: pointer;
+  margin-left: 45px;
+  margin-top: 90px;
+  text-align: center;
+}
+
+.sub1 li:hover {
+  background-color: #ddd;
+}
+
+.sub1 li:hover ul {
+  display: block;
+}
+
+.sub {
+  position: absolute;
+  background-color: #e1818a;
+  cursor: pointer;
+  margin-left: 45px;
+  margin-top: 12.5px;
+  text-align: center;
+}
+
+.sub ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+}
+
+.sub li {
+  display: block;
+  white-space: nowrap;
+}
+
+.sub li:hover {
+  background-color: #ddd;
+}
+
+.sub li:hover ul {
+  display: block;
+}
+
+.second-menu {
+  display: none;
+  position: absolute;
+  left: 0;
+  margin-top: 28px;
+}
+
+.second-menu li {
+  display: block;
+  white-space: nowrap;
+}
+
+.second-menu li:hover {
+  background-color: #ddd;
+}
+
+.second-menu ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+}
+
+.second-menu li:hover ul {
+  display: block;
+}
+
+.clothes {
+  position: relative;
+  background-color: #8d8787;
+  cursor: pointer;
+  margin-left: 45px;
+  text-align: center;
+  padding-right: 15px;
+}
+
+.costmetics li { 
+  display: block;
+  white-space: nowrap;
+}
+
+.costmetics li:hover {
+  background-color: #ddd;
+}
+
+.costmetics li:hover ul {
+  display: block;
+}
+
+.costmetics {
+  position: relative;
+  background-color: #8d8787;
+  cursor: pointer;
+  margin-left: 45px;
+  text-align: center;
+  padding-right: 25px;
+}
